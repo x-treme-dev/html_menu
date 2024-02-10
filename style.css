@@ -1,0 +1,40 @@
+body{
+    background-color: #fdebd0;
+    box-sizing: border-box;
+}
+
+.nav__container{
+    margin:20px 0 0 20px;
+}
+
+.nav__menu{
+    background-color: #8a8a8a;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    color: #fff;
+    height: 350px;
+    width: 250px;
+}
+
+.nav__items{
+    height: 70px;
+    display: flex;
+
+}
+
+.nav__img{
+    height: 70px; /*картинка уменьшилась пропорционально*/
+    width: 75px;
+}
+
+.nav_p{
+    padding: 28px 0 0 15px;
+}
+
+.nav__items:hover{
+    background-color: #6d6d6d;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    cursor: pointer;
+}
+
